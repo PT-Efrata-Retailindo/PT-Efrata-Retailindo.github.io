@@ -9169,382 +9169,368 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */body {
-    margin: 0;
+  margin: 0; 
 }
 
 .main {
-    padding: 20px !important;
+  padding: 20px !important;
 }
 
 .navbar-brand {
-    padding: 10px 15px;
-    line-height: 29px;
+  padding: 10px 15px;
+  line-height: 29px;
 }
 
 .logo {
-    margin-left: 12px;
-    height: 29px;
-    width: 29px;
-    float: left;
-    margin-right: 5px;
-    /*background-image: url('/images/Logo-DL-Blue.png');*/
-    background-size: cover;
-    background-repeat: no-repeat;
+  height:29px;
+  width:29px;
+  float:left;
+  margin-right:5px;
+  /*background-image: url('../images/Logo-DL-Blue.png');*/
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .sidebar {
-    background-color: #112 !important;
-    color: #ffffff;
+  background-color: #173250 !important;
+  color: #ffffff;
 }
 
 .sidebar hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.nav-sidebar>li>a {
-    color: #ffffff;
+.nav-sidebar > li > a {
+  color: #ffffff;
+}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+  background-color: #25456b !important;
 }
 
-.nav-sidebar>.active>a,
-.nav-sidebar>.active>a:hover,
-.nav-sidebar>.active>a:focus {
-    background-color: #25456b !important;
-}
-
-.nav>li>a:hover,
-.nav>li>a:focus {
-    color: #25456b;
-    background-color: #ffffff;
+.nav > li > a:hover, .nav > li > a:focus {
+  color: #25456b;
+  background-color: #ffffff;
 }
 
 .navbar-inverse {
-    background-color: #112;
+  background-color: #061b30;
 }
 
 .navbar-inverse .navbar-brand {
-    color: #ffffff;
+  color: #ffffff;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #ffffff;
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff;
 }
 
 .container {
-    padding: 100px 0;
+  padding:100px 0;
 }
 
 .splash {
-    text-align: center;
-    margin: 10% 0 0 0;
-    box-sizing: border-box;
+  text-align: center;
+  margin: 10% 0 0 0;
+  box-sizing: border-box;
 }
 
 .splash .message {
-    font-size: 72px;
-    line-height: 72px;
-    text-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;
-    text-transform: uppercase;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 72px;
+  line-height: 72px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .splash .fa-spinner {
-    text-align: center;
-    display: inline-block;
-    font-size: 72px;
-    margin-top: 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 72px;
+  margin-top: 50px;
 }
 
 .page-host {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@media print {
+  .page-host {
     position: absolute;
-    left: 0;
+    left: 10px;
     right: 0;
     top: 50px;
     bottom: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
-@media print {
-    .page-host {
-        position: absolute;
-        left: 10px;
-        right: 0;
-        top: 50px;
-        bottom: 0;
-        overflow-y: inherit;
-        overflow-x: inherit;
-    }
+    overflow-y: inherit;
+    overflow-x: inherit;
+  }
 }
 
 section {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
 .navbar-nav li.loader {
-    margin: 12px 24px 0 6px;
+  margin: 12px 24px 0 6px;
 }
 
 .pictureDetail {
-    max-width: 425px;
+  max-width: 425px;
 }
 
-
 /* animate page transitions */
-
 section.au-enter-active {
-    -webkit-animation: fadeInRight 1s;
-    animation: fadeInRight 1s;
+  -webkit-animation: fadeInRight 1s;
+  animation: fadeInRight 1s;
 }
 
 div.au-stagger {
-    /* 50ms will be applied between each successive enter operation */
-    -webkit-animation-delay: 50ms;
-    animation-delay: 50ms;
+  /* 50ms will be applied between each successive enter operation */
+  -webkit-animation-delay: 50ms;
+  animation-delay: 50ms;
 }
 
 .card-container.au-enter {
-    opacity: 0 !important;
+  opacity: 0 !important;
 }
 
 .card-container.au-enter-active {
-    -webkit-animation: fadeIn 2s;
-    animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
 }
 
 .card {
-    overflow: hidden;
-    position: relative;
-    border: 1px solid #CCC;
-    border-radius: 8px;
-    text-align: center;
-    padding: 0;
-    background-color: #337ab7;
-    color: rgb(136, 172, 217);
-    margin-bottom: 32px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #CCC;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0;
+  background-color: #337ab7;
+  color: rgb(136, 172, 217);
+  margin-bottom: 32px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
 }
 
 .card .content {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .card .content .name {
-    color: white;
-    text-shadow: 0 0 6px rgba(0, 0, 0, .5);
-    font-size: 18px;
+  color: white;
+  text-shadow: 0 0 6px rgba(0, 0, 0, .5);
+  font-size: 18px;
 }
 
 .card .header-bg {
-    /* This stretches the canvas across the entire hero unit */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    border-bottom: 1px #FFF solid;
-    border-radius: 6px 6px 0 0;
+  /* This stretches the canvas across the entire hero unit */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px #FFF solid;
+  border-radius: 6px 6px 0 0;
 }
 
 .card .avatar {
-    position: relative;
-    margin-top: 15px;
-    z-index: 100;
+  position: relative;
+  margin-top: 15px;
+  z-index: 100;
 }
 
 .card .avatar img {
-    width: 100px;
-    height: 100px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    border: 2px #FFF solid;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px #FFF solid;
 }
 
-
 /* animation definitions */
-
 @-webkit-keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(100%, 0, 0);
-        transform: translate3d(100%, 0, 0)
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none
-    }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0)
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none
+  }
 }
 
 @keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(100%, 0, 0);
-        -ms-transform: translate3d(100%, 0, 0);
-        transform: translate3d(100%, 0, 0)
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: none;
-        -ms-transform: none;
-        transform: none
-    }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0)
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+  }
 }
 
 @-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @page {
-    size: A5;
-    margin: 0 5mm;
+  size: A5;
+  margin: 0 5mm;
 }
-
+        
 @media screen {
-    .print-wrapper {
-        display: none;
-    }
+  .print-wrapper {
+    display: none;
+  }
 }
-
+        
 @media print {
-    body {
-        font-family: calibri;
-    }
-    h3 {
-        margin: 0;
-    }
-    .print-wrapper {
-        page-break-after: always;
-        display: block;
-        margin-top: .5cm;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    .print-wrapper:first-of-type {
-        margin-top: 1cm;
-    }
-    .print-wrapper * {
-        line-height: 1.2em;
-    }
-    .container {
-        padding: 0;
-    }
-    .header {
-        font-size: 1.5em;
-    }
-    address {
-        font-weight: bold;
-        margin-bottom: 0 !important;
-    }
-    .a5 table {
-        height: 6.5cm;
-    }
-    .a4-table-po-item {
-        margin-top: .5cm;
-        height: 14cm;
-    }
-    .a4 table {
-        margin-bottom: 0;
-    }
-    .table-no-bordered {
-        margin-top: .25cm;
-    }
-    .table-no-bordered>thead>tr>th,
-    .table-no-bordered>tbody>tr>th,
-    .table-no-bordered>tfoot>tr>th,
-    .table-no-bordered>thead>tr>td,
-    .table-no-bordered>tbody>tr>td,
-    .table-no-bordered>tfoot>tr>td {
-        border: 0;
-        line-height: 0.8em;
-        padding: 5px;
-    }
-    .table-item>tbody>tr>td {
-        border: 0;
-        border-left: 1px solid #eaeaea;
-        border-right: 1px solid #eaeaea;
-        line-height: 0.8em;
-    }
-    .table-po>tbody>tr>td {
-        border: 1px solid #eaeaea;
-        border-bottom: 0;
-        line-height: 0.8em;
-    }
-    .a4 {
-        width: 207mm;
-        height: 302mm;
-        /*overflow: hidden;*/
-    }
-    .a5 {
-        width: 148mm;
-        height: 210mm;
-        font-size: 10pt;
-    }
-    .iso {
-        font-weight: bold;
-    }
-    .sign-footer {
-        margin-top: 10px;
-    }
-    .display-wrapper {
-        display: none;
-    }
-    .side-nav-bar {
-        display: none;
-    }
-    .struk {
-        /*width: 76mm;*/
-        width: 100% !important;
-        /*height: 100mm;*/
-        overflow: hidden;
-        font-size: 9pt;
-        font-family: "Times New Roman", Times, serif;
-        padding: 25pt;
-        margin: 0;
-        display: block;
-    }
-    .struk table tr td {
-        vertical-align: top;
-    }
-}
+  
+  body {
+    font-family: calibri;  
+  }
+  
+  h3 {
+    margin:0;
+  }
+  
+  .print-wrapper {
+    page-break-after: always;
+    display: block;
+    margin-top:.5cm;
+    /*margin-bottom:.5cm;*/
+  }
+  
+  .print-wrapper:first-of-type {
+    margin-top:1cm;
+  }
 
+  .print-wrapper * {
+    line-height: 1.2em;      
+  } 
+   
+  .container {
+    padding: 0;
+  }
+  
+  .header {
+    font-size:1.5em;
+  }
+  
+  address {
+    font-weight:bold;
+    margin-bottom: 0 !important;
+  }
+  
+  .a5 table {
+    height: 6.5cm;
+  }
+  
+  .a4-table-po-item {
+    margin-top:.5cm;
+    height: 14cm;
+  }
+  
+  .a4 table {
+    margin-bottom: 0;
+  }
+  
+  .table-no-bordered {
+    margin-top:.25cm;
+  }
+  
+  .table-no-bordered > thead > tr > th, .table-no-bordered > tbody > tr > th, .table-no-bordered > tfoot > tr > th, .table-no-bordered > thead > tr > td, .table-no-bordered > tbody > tr > td, .table-no-bordered > tfoot > tr > td { 
+    border:0;
+    line-height: 0.8em;
+    padding:5px;
+  }
+  
+  .table-item > tbody > tr > td {
+    border:0;
+    border-left:1px solid #eaeaea;
+    border-right:1px solid #eaeaea;
+    line-height: 0.8em;
+  }
+  
+  .table-po > tbody > tr > td {
+    border:1px solid #eaeaea;
+    border-bottom:0;
+    line-height: 0.8em;
+  }
+  
+  .a4 {
+    width: 207mm;
+    height: 302mm;
+    overflow: hidden;
+  }
+  
+  .a5 {
+    width: 148mm;
+    height: 210mm;
+    font-size:10pt;
+  }
+  
+  .iso {
+    font-weight:bold;
+  }
+  
+  .sign-footer {
+    margin-top:10px;    
+  }
+            
+ .display-wrapper {
+    display: none;
+  }
+}
 
 /*label {
   padding-top: 0 !important;  
 }*/
 
 .padding-right-10 {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .margin-top-10 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .margin-top-57 {
-    margin-top: 57px;
+  margin-top: 57px;
 }
 
 .gray-box {
-    border: 1px solid #eaeaea;
-    padding: 10px;
-    margin: 10px auto;
+  border:1px solid #aaa;
+  padding:10px;
+  margin:10px auto;
 }
 
 select {
@@ -9563,76 +9549,7 @@ select {
     color: #2a2a2a;
     text-transform: uppercase;
 }
-
-h3 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -1px;
-    /*color: #173250;*/
-    color: #2a2a2a;
-    text-transform: uppercase;
-}
-
-.report-table.minimized {
-    -webkit-transition: opacity 0.3s ease;
-    -moz-transition: opacity 0.3s ease;
-    -ms-transition: opacity 0.3s ease;
-    -o-transition: opacity 0.3s ease;
-    transition: opacity 0.3s ease;
-    overflow-y: hidden;
-    opacity: 0;
-    height: 0;
-}
-
-.report-table.maximized {
-    height: auto;
-    opacity: 1;
-}
-
-.report-table thead tr {
-    background-color: #000000;
-    color: #ffffff;
-}
-
-.report-table tbody tr:hover td {
-    /*cursor: pointer;*/
-    background-color: #d4e9f1;
-}
-
-.report .store {
-    padding: 20px;
-    background-color: #d4e9f1;
-    margin-bottom: 20px;
-}
-
-.report .store table {
-    overflow: scroll;
-    width: 100%;
-    max-width: 100%;
-}
-
-.table-responsive {
-    width: 100%;
-}
-
-.product-report-dialog {
-    margin: auto;
-    width: 700px;
-}
-
-@media (max-width: 767px) {
-    .product-report-dialog {
-        margin: auto;
-        margin-left: 45px;
-        width: 90%;
-    }
-}
-
-.pagination2 .pagination {
-    margin: 0px;
-    margin-right: 10px;
-}html,
+html,
 body {
     min-height: 100%;
 }
@@ -9952,7 +9869,7 @@ body {
 
 .login {
     /*background-image: url('../images/JPEG-danliris-login.jpg');*/
-    background-color: #000000;
+    background-color: #173250;
     background-size: cover;
     padding-top: 120px;
     position: absolute;
@@ -10270,10 +10187,10 @@ router-view > div > router-view,
 .main-sidebar,
 .secondary-sidebar,
 .tertiary-sidebar {
-  background-color: #000000;
+  background-color: #173250;
   color: #fff;
   margin-top: 50px;
-  border: 1px solid #fff;
+  border: 1px solid #285a8f;
   border-left: none;
   position: fixed;
   top: 0;
@@ -10465,12 +10382,12 @@ router-view > div > router-view,
 .sidebar-header {
   height: 45px;
   text-transform: uppercase;
-  background-color: #000000;
+  background-color: #25456b;
   line-height: 45px;
   letter-spacing: 1px;
   font-size: 18px;
   padding-left: 15px;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #285a8f;
 }
 
 .sidebar-toggle {
@@ -11073,6 +10990,10 @@ div.fixed-table-scroll-outer {
 {
   border:0px;
 }
+
+/* td {
+  white-space: pre;
+} */
 /*
 Origin : https://github.com/wenzhixin/bootstrap-table-fixed-columns
 Need more improvement.
@@ -11166,7 +11087,168 @@ Need more improvement.
 
 .react-autosuggest__suggestion--focused {
   background-color: #ddd;
-}.form-signin {
+}.rc-time-picker {
+  display: block;
+  box-sizing: border-box;
+}
+.rc-time-picker * {
+  box-sizing: border-box;
+}
+.rc-time-picker-input {
+  width: 100%;
+  display: block;
+  padding: 6px 12px;
+  height: 34px;
+  cursor: text;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-shadow: none;
+  -webkit-transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.rc-time-picker-input:disabled {
+  padding: 6px 0px;
+  height: 34px;
+  font-size: 14px;
+  color: #2a2a2a;
+  background-color: transparent;
+  border: none;
+}
+.rc-time-picker-panel {
+  z-index: 1070;
+  width: 170px;
+  position: absolute;
+  box-sizing: border-box;
+}
+.rc-time-picker-panel * {
+  box-sizing: border-box;
+}
+.rc-time-picker-panel-inner {
+  display: inline-block;
+  position: relative;
+  outline: none;
+  list-style: none;
+  font-size: 12px;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 5px #ccc;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  line-height: 1.5;
+}
+.rc-time-picker-panel-input {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  cursor: auto;
+  line-height: 1.5;
+  outline: 0;
+  border: 1px solid transparent;
+}
+.rc-time-picker-panel-input-wrap {
+  box-sizing: border-box;
+  position: relative;
+  padding: 6px;
+  border-bottom: 1px solid #e9e9e9;
+}
+.rc-time-picker-panel-input-invalid {
+  border-color: red;
+}
+.rc-time-picker-panel-clear-btn {
+  position: absolute;
+  right: 6px;
+  cursor: pointer;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  top: 6px;
+  margin: 0;
+}
+.rc-time-picker-panel-clear-btn:after {
+  content: "x";
+  font-size: 12px;
+  color: #aaa;
+  display: inline-block;
+  line-height: 1;
+  width: 20px;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.rc-time-picker-panel-clear-btn:hover:after {
+  color: #666;
+}
+.rc-time-picker-panel-combobox{
+  display: table;
+  width: 100%;
+}
+.rc-time-picker-panel-select {
+  /*float: left;*/
+  font-size: 12px;
+  border: 1px solid #e9e9e9;
+  border-width: 0 1px;
+  margin-left: -1px;
+  box-sizing: border-box;
+  /*width: 56px;*/
+  display: table-cell;
+  overflow: hidden;
+  position: relative;
+}
+.rc-time-picker-panel-select:hover {
+  overflow-y: auto;
+}
+.rc-time-picker-panel-select:first-child {
+  border-left: 0;
+  margin-left: 0;
+}
+.rc-time-picker-panel-select:last-child {
+  border-right: 0;
+}
+.rc-time-picker-panel-select ul {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-height: 144px;
+}
+.rc-time-picker-panel-select li {
+  list-style: none;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0 0 0 16px;
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  text-align: left;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.rc-time-picker-panel-select li:hover {
+  background: #edfaff;
+}
+li.rc-time-picker-panel-select-option-selected {
+  background: #edfaff;
+  color: #2db7f5;
+}
+li.rc-time-picker-panel-select-option-disabled {
+  color: #bfbfbf;
+}
+li.rc-time-picker-panel-select-option-disabled:hover {
+  background: transparent;
+  cursor: not-allowed;
+}
+.form-signin {
   max-width: 330px;
   padding: 15px;
   margin: 0 auto;
@@ -11200,203 +11282,5 @@ Need more improvement.
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.box-detail {
-  margin: 20px;
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid black;
-}
 
-.box-header {
-  background-color: #ebedef;
-  color: black;
-  padding: 7px 0 7px 15px;
-  margin-bottom: 15px;
-}
-
-.title-header {
-  font-size: 18;
-}
-
-.content-detail {
-  padding-bottom: 10px;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-tr {
-  height: 40px;
-}
-
-th {
-  width: 170px;
-}
-.save {
-  position: absolute;
-  left: 90%;
-  width: 10%;
-}
-
-.text-left {
-  height: 50px;
-  padding-top: 5px;
-}
-
-.text-right {
-  height: 50px;
-  padding-top: 5px;
-  text-align: right;
-}
-
-.text-center {
-  height: 50px;
-  padding-top: 5px;
-  text-align: center;
-}.save {
-  position: absolute;
-  left: 90%;
-  width: 10%;
-}
-
-.text-left {
-  height: 50px;
-  padding-top: 5px;
-}
-
-.text-right {
-  height: 50px;
-  padding-top: 5px;
-  text-align: right;
-}
-
-.text-center {
-  height: 50px;
-  padding-top: 5px;
-  text-align: center;
-}.box-detail {
-  margin: 20px;
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid black;
-}
-
-.box-header {
-  background-color: #ebedef;
-  color: black;
-  padding: 7px 0 7px 15px;
-  margin-bottom: 15px;
-}
-
-.title-header {
-  font-size: 18;
-}
-
-.content-detail {
-  padding-bottom: 10px;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-tr {
-  height: 40px;
-}
-
-th {
-  width: 170px;
-}
-/*
-Origin : https://github.com/wenzhixin/bootstrap-table-fixed-columns
-Need more improvement.
-*/
-
-.fixed-table-header-columns,
-.fixed-table-body-columns {
-    position: absolute;
-    background-color: #fff;
-    display: none;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-.fixed-table-header-columns .table,
-.fixed-table-body-columns .table {
-    border-right: 1px solid #ddd;
-}
-
-.fixed-table-header-columns .table.table-no-bordered,
-.fixed-table-body-columns .table.table-no-bordered {
-    border-right: 1px solid transparent;
-}
-
-.fixed-table-body-columns table {
-    position: absolute;
-    animation: none;
-}
-
-.bootstrap-table .table-hover > tbody > tr.hover > td{
-    background-color: #f5f5f5;
-}
-.box-detail {
-  margin: 20px;
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid black;
-}
-
-.box-header {
-  background-color: #ebedef;
-  color: black;
-  padding: 7px 0 7px 15px;
-  margin-bottom: 15px;
-}
-
-.title-header {
-  font-size: 18;
-}
-
-.content-detail {
-  padding-bottom: 10px;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-tr {
-  height: 40px;
-}
-
-th {
-  width: 170px;
-}
-.box-detail {
-  margin: 20px;
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid black;
-}
-
-.box-header {
-  background-color: #ebedef;
-  color: black;
-  padding: 7px 0 7px 15px;
-  margin-bottom: 15px;
-}
-
-.title-header {
-  font-size: 18;
-}
-
-.content-detail {
-  padding-bottom: 10px;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-tr {
-  height: 40px;
-}
-
-th {
-  width: 170px;
-}
-
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0E7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Iiwic291cmNlUm9vdCI6IiJ9*/
+/*# sourceMappingURL=app.ed0ff0976e60a5a69ce2.bundle.map*/
